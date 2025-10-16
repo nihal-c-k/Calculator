@@ -55,3 +55,11 @@ button:hover {
 .equals-button:hover {
     background-color: #f80;
 }
+
+.clear-button {
+    background-color: #f00;
+}
+
+.clear-button:hover {
+    background-color: #f33;
+}
