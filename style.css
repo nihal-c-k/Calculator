@@ -11,7 +11,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: #fff;
+    background-color: #333;
 }
 
 #display {
@@ -22,6 +22,8 @@ body {
     margin-bottom: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
 }
 
 .buttons {
@@ -37,12 +39,19 @@ button {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #555;
+    color: #fff;
 }
 
 button:hover {
-    background-color: #f0f0f0;
+    background-color: #666;
 }
 
 .equals-button {
     grid-column: span 2;
+    background-color: #f60;
+}
+
+.equals-button:hover {
+    background-color: #f80;
 }
