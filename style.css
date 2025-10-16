@@ -31,7 +31,7 @@ body {
 }
 
 button {
-    width: 50px;
+    width: 100%;
     height: 50px;
     font-size: 20px;
     border: 1px solid #ccc;
@@ -41,4 +41,8 @@ button {
 
 button:hover {
     background-color: #f0f0f0;
+}
+
+.equals-button {
+    grid-column: span 2;
 }
