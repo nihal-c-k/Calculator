@@ -63,3 +63,11 @@ button:hover {
 .clear-button:hover {
     background-color: #f33;
 }
+
+.operator-button {
+    background-color: #ff9800;
+}
+
+.operator-button:hover {
+    background-color: #ffad33;
+}
